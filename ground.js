@@ -1,6 +1,6 @@
 import { incrementCustomProperty } from "./updateCustomProperty.js"
 
-const SPPED = 0.05
+const SPEED = 0.05
 const groundElems = document.querySelectorAll("[data-ground]")
 
 export function updateGround(delta){
